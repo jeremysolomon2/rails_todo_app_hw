@@ -2,15 +2,15 @@
 
 <h1>Todo Items</h1>
 
-<table>
-  <thead>
+<table class="table">
+  <thead class="thead-dark">
     <tr>
       <th>Description</th>
       <th colspan="3"></th>
     </tr>
   </thead>
 
-  <tbody>
+  <tbody class="table table-striped">
     <% @todo_items.each do |todo_item| %>
       <tr>
         <td><%= todo_item.description %></td>
